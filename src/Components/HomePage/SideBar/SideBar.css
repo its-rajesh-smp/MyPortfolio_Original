@@ -1,0 +1,18 @@
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.SideBar i {
+  font-size: 30px;
+  color: gray;
+  transition-property: all;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+.SideBar i:hover {
+  color: black;
+}/*# sourceMappingURL=SideBar.css.map */
