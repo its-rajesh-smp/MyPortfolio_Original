@@ -1,0 +1,11 @@
+.Header {
+  height: 50px;
+  width: 100vw;
+  background-color: #1E2022;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}/*# sourceMappingURL=Header.css.map */

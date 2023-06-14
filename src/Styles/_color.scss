@@ -1,0 +1,14 @@
+$header:#1E2022;
+$body:#1E2022;
+
+//? Functions
+@use "sass:math";
+@function torem($value) {
+  $baseFontSize: 16px;
+  $remValue: math.div($value, $baseFontSize) + rem;
+  @return $remValue;
+}
+@function toper($value) {
+  $remValue: calc(math.div(100, 16) * $value) * 1%;
+  @return $remValue;
+}
