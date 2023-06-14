@@ -1,13 +1,13 @@
 .SideBar {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 1.25rem;
 }
 .SideBar i {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: gray;
   transition-property: all;
   transition-duration: 500ms;
@@ -15,4 +15,15 @@
 }
 .SideBar i:hover {
   color: black;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .SideBar {
+    flex-direction: row;
+    align-items: normal;
+    justify-content: space-between;
+    width: 100%;
+    height: -moz-max-content;
+    height: max-content;
+  }
 }/*# sourceMappingURL=SideBar.css.map */

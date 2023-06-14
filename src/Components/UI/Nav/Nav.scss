@@ -1,10 +1,12 @@
+@import "../../../Styles/color";
 .Nav{
     ul{
         display: flex;
-        gap: 10px;
+        gap: torem(10px);
         list-style: none;
         li{
             
         }
     }
 }
+

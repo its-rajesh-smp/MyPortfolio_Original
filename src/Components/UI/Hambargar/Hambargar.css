@@ -1,0 +1,17 @@
+.Hambargar {
+  position: fixed;
+  height: 100vh;
+  background-color: #1E2022;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+.Hambargar ul {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.125rem;
+  justify-content: space-between;
+  list-style: none;
+  font-size: 1.5625rem;
+}/*# sourceMappingURL=Hambargar.css.map */

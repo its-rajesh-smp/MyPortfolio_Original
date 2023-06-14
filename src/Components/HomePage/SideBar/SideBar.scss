@@ -1,12 +1,13 @@
+@import "../../../Styles/color";
 .SideBar{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: torem(20px);
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: torem(20px);
     i{
-        font-size: 30px;
+        font-size: torem(30px);
         color: gray;
         transition-property: all;
         transition-duration: 500ms;
@@ -14,5 +15,16 @@
         &:hover{
             color: black;
         }
+    }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px)  {
+    .SideBar{
+        flex-direction: row;
+        align-items: normal;
+        justify-content: space-between;
+        width:100% ;
+        height: max-content;
     }
 }

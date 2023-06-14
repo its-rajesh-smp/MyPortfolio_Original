@@ -1,4 +1,28 @@
+  @import "../Styles/color";
   .page{
     min-height: calc(100vh - 60px);
     background-color: #F0F5F9;
   }
+
+
+  //? Media
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  html {
+    font-size: toper(12);
+  }
+
+}
+/* Tablet */
+@media only screen and (min-device-width: 480px) and (max-device-width: 1080px) {
+  html {
+    font-size: toper(15);
+  }
+}
+/* Tablet 2 */
+@media only screen and (min-device-width: 480px) and (max-device-width: 900px) {
+  html {
+    font-size: toper(10);
+  }
+}
+ 
