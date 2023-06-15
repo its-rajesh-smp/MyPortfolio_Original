@@ -20,4 +20,26 @@
   html {
     font-size: 62.5%;
   }
+}
+.span {
+  display: inline;
+  position: relative;
+  transition-property: all;
+  transition-duration: 2s;
+  top: 0px;
+  left: 0px;
+  transform: rotate(0deg);
+  font-size: 16px;
+  text-shadow: none;
+}
+
+.typewriter_div {
+  position: relative;
+}
+
+.typewriter_Container {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+  z-index: 10;
 }/*# sourceMappingURL=App.css.map */

@@ -1,3 +1,11 @@
 .HomePage {
+  display: grid;
+  grid-template-columns: 0.1fr 2fr;
+  align-items: center;
+}
+
+.HomePage__container {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=HomePage.css.map */

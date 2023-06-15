@@ -1,0 +1,11 @@
+.TextSide {
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+  flex-direction: column;
+}
+.TextSide h1 {
+  font-size: 100px;
+}
+.TextSide h2 {
+  font-size: 50px;
+}/*# sourceMappingURL=TextSide.css.map */
