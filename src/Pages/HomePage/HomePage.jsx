@@ -6,9 +6,9 @@ import PageWrapper from "../../Components/UI/PageWrapper/PageWrapper";
 import "./HomePage.css";
 function HomePage() {
   return (
-    <section>
+    <section className="HomePageSection page">
       <HomeBackground />
-      <PageWrapper className="HomePage page">
+      <PageWrapper className="HomePage ">
         <SideBar />
         <div className="HomePage__container">
           <TextSide />

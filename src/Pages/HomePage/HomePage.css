@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: 0.1fr 2fr;
   align-items: center;
+  overflow-x: hidden;
+  height: 100%;
 }
 
 .HomePage__container {

@@ -23,7 +23,7 @@ export const HomeBackground_config = {
   defaultThemes: {},
   delay: 0,
   fullScreen: {
-    enable: true,
+    enable: false,
     zIndex: 1,
   },
   detectRetina: true,
@@ -548,7 +548,7 @@ export const HomeBackground_config = {
   pauseOnOutsideViewport: true,
   responsive: [],
   smooth: false,
-  style: {},
+  style: { height: "100%", position: "absolute" },
   themes: [],
   zLayers: 100,
   motion: {
