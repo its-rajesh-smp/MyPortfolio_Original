@@ -8,6 +8,7 @@
   height: 3.75rem;
   justify-content: space-between;
   position: sticky;
+  z-index: 5000;
   padding: 20px;
 }
 .Header h1, .Header .bx-menu {
