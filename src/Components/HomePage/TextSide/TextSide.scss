@@ -1,11 +1,26 @@
+@import "../../../Styles/color";
 .TextSide{
     display: flex;
     font-family: 'Josefin Sans', sans-serif;
     flex-direction: column;
     h1{
-        font-size: 100px;
+        font-size: torem(100px);
     }
     h2{
-        font-size: 50px;
+        font-size: torem(50px);
     }
 }
+
+
+  //? Media
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .TextSide{
+        width: 90%;
+    }
+   
+   }
+   /* Tablet */
+   @media only screen and (min-device-width: 480px) and (max-device-width: 1080px) {
+    
+   }

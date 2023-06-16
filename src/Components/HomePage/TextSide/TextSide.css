@@ -4,8 +4,16 @@
   flex-direction: column;
 }
 .TextSide h1 {
-  font-size: 100px;
+  font-size: 6.25rem;
 }
 .TextSide h2 {
-  font-size: 50px;
-}/*# sourceMappingURL=TextSide.css.map */
+  font-size: 3.125rem;
+}
+
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .TextSide {
+    width: 90%;
+  }
+}
+/* Tablet *//*# sourceMappingURL=TextSide.css.map */

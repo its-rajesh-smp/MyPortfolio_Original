@@ -1,3 +1,8 @@
+.ImageSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .ImageSide img {
   width: 25vw;
   animation-name: animateImageBlob;
@@ -25,5 +30,11 @@
   }
   100% {
     border-radius: 33% 67% 70% 30%/30% 30% 70% 70%;
+  }
+}
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .ImageSide img {
+    width: 60vw;
   }
 }/*# sourceMappingURL=ImageSide.css.map */

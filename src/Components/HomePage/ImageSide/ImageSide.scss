@@ -1,4 +1,7 @@
 .ImageSide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     img{
         width: 25vw;
         animation-name: animateImageBlob;
@@ -18,3 +21,15 @@
     80% { border-radius: 40% 60% 42% 58% / 41% 51% 49% 59%; } 
     100% { border-radius: 33% 67% 70% 30% / 30% 30% 70% 70%; } 
 }
+
+
+  //? Media
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .ImageSide{
+        img{
+            width: 60vw;
+        }
+    }
+}
+   

@@ -8,4 +8,20 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}/*# sourceMappingURL=HomePage.css.map */
+}
+
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .HomePage {
+    display: flex;
+    flex-direction: column;
+  }
+  .HomePage__container {
+    height: 60vh;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    gap: 100px;
+  }
+}
+/* Tablet *//*# sourceMappingURL=HomePage.css.map */

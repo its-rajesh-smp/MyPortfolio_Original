@@ -1,11 +1,39 @@
 .page {
   min-height: calc(100vh - 60px);
+  overflow-x: hidden;
+}
+
+.span {
+  display: inline;
+  position: relative;
+  transition-property: all;
+  transition-duration: 1s;
+  top: 0px;
+  left: 0px;
+  transform: rotate(0deg);
+  font-size: 1rem;
+  text-shadow: none;
+}
+
+.typewriter_div {
+  position: relative;
+  width: 100%;
+}
+
+.typewriter_Container {
+  position: absolute;
+  height: 12.5rem;
+  width: 25rem;
+  z-index: 10;
 }
 
 /* Smartphones  */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   html {
     font-size: 75%;
+  }
+  .typewriter_Container {
+    width: 100%;
   }
 }
 /* Tablet */
@@ -19,26 +47,4 @@
   html {
     font-size: 62.5%;
   }
-}
-.span {
-  display: inline;
-  position: relative;
-  transition-property: all;
-  transition-duration: 2s;
-  top: 0px;
-  left: 0px;
-  transform: rotate(0deg);
-  font-size: 16px;
-  text-shadow: none;
-}
-
-.typewriter_div {
-  position: relative;
-}
-
-.typewriter_Container {
-  position: absolute;
-  height: 200px;
-  width: 400px;
-  z-index: 10;
 }/*# sourceMappingURL=App.css.map */

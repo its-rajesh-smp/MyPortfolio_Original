@@ -72,10 +72,10 @@ function boomTextFunc() {
     for (let i = 0; i < span.length; i++) {
       span[i].style.display = "inline-block";
       if (i % 2 === 0) {
-        const randomTop = getRndInteger(10, 20);
-        const randomLeft = getRndInteger(10, 20);
+        const randomTop = getRndInteger(10, 15);
+        const randomLeft = getRndInteger(10, 15);
         const rotate = getRndInteger(0, 360);
-        const fontSize = getRndInteger(12, 50);
+        const fontSize = getRndInteger(12, 30);
         const textShadow1 = getRndInteger(2, 10);
         const textShadow2 = getRndInteger(2, 10);
         const textShadow3 = getRndInteger(2, 10);
@@ -87,10 +87,10 @@ function boomTextFunc() {
           i
         ].style.textShadow = `${textShadow1}px ${textShadow2}px ${textShadow3}px black`;
       } else {
-        const randomTop = getRndInteger(10, 20);
-        const randomLeft = getRndInteger(10, 20);
+        const randomTop = getRndInteger(10, 15);
+        const randomLeft = getRndInteger(10, 15);
         const rotate = getRndInteger(0, 360);
-        const fontSize = getRndInteger(12, 50);
+        const fontSize = getRndInteger(12, 30);
         const textShadow1 = getRndInteger(2, 10);
         const textShadow2 = getRndInteger(2, 10);
         const textShadow3 = getRndInteger(2, 10);
