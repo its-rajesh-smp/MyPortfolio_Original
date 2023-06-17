@@ -1,0 +1,55 @@
+@import "../../../Styles/color";
+.Journey{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2{
+        font-size: torem(100px);
+    }
+    .Journey__date{
+        display: flex;
+        h3{
+            font-size: torem(20px);
+            font-family: bbk;
+        }
+        
+    }
+    .Journey__about{
+        font-family: bbk;
+        font-family: torem(18px);
+    }
+}
+
+  //? Media
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .Journey{
+        padding: 10px;
+        h2{
+            font-size: torem(50px);
+        }
+
+    }
+   
+   }
+   /* Tablet */
+   @media only screen and (min-device-width: 480px) and (max-device-width: 1080px) {
+    .Journey{
+        
+        h2{
+            
+        }
+        .Journey__date{
+            
+            h3{
+                
+            }
+            
+        }
+        .Journey__about{
+           
+        }
+    }
+   }
+   

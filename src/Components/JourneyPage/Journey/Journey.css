@@ -1,0 +1,31 @@
+.Journey {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Journey h2 {
+  font-size: 6.25rem;
+}
+.Journey .Journey__date {
+  display: flex;
+}
+.Journey .Journey__date h3 {
+  font-size: 1.25rem;
+  font-family: bbk;
+}
+.Journey .Journey__about {
+  font-family: bbk;
+  font-family: 1.125rem;
+}
+
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Journey {
+    padding: 10px;
+  }
+  .Journey h2 {
+    font-size: 3.125rem;
+  }
+}
+/* Tablet *//*# sourceMappingURL=Journey.css.map */

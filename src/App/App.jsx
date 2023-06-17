@@ -9,6 +9,7 @@ function App() {
       <Header />
       <HomePage />
       <JourneyPage />
+      <JourneyPage />
     </>
   );
 }
