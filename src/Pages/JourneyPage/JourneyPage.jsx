@@ -24,9 +24,9 @@ function JourneyPage() {
         duration: 1,
         scrollTrigger: {
           trigger: trigguredRef.current,
-          start: "top top",
+          start: "-60px top",
           end: "5000 top",
-          scrub: 0.6,
+          scrub: 0.1,
           pin: true,
           onUpdate: (scrollTrigger) => {
             const progress = scrollTrigger.progress * 100;

@@ -1,9 +1,29 @@
+@import "../../Styles/color";
 .SkillPage{
-    padding: 10px;
+    padding: torem(10px);
     .SkillPage__container{
-        padding: 50px;
+        padding: torem(50px);
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 50px;
+        gap: torem(50px);
     }
+
 }
+
+
+  //? Media
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .SkillPage{
+        .SkillPage__container{
+            padding: 50px 0px;
+        }
+    
+    }
+   
+   }
+   /* Tablet */
+   @media only screen and (min-device-width: 480px) and (max-device-width: 1080px) {
+    
+   }
+   

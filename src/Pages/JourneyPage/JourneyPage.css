@@ -1,6 +1,6 @@
 .JourneyPage {
   overflow-x: hidden;
-  padding: 5rem 0.625rem;
+  padding: 0.625rem;
 }
 .JourneyPage .JourneyPage__wrapper {
   height: 100vh;

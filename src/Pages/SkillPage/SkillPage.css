@@ -1,9 +1,17 @@
 .SkillPage {
-  padding: 10px;
+  padding: 0.625rem;
 }
 .SkillPage .SkillPage__container {
-  padding: 50px;
+  padding: 3.125rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 50px;
-}/*# sourceMappingURL=SkillPage.css.map */
+  gap: 3.125rem;
+}
+
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .SkillPage .SkillPage__container {
+    padding: 50px 0px;
+  }
+}
+/* Tablet *//*# sourceMappingURL=SkillPage.css.map */

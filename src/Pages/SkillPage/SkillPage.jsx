@@ -8,6 +8,11 @@ function SkillPage() {
     <section className="page">
       <PageWrapper className="SkillPage">
         <h1 className="pageHeading">SKILLS</h1>
+
+        <div className="loader">
+          <div style={{ width: "100%" }} className="progressBar"></div>
+        </div>
+
         <div className="SkillPage__container">
           {SKILLS.map((skillData) => {
             return (
