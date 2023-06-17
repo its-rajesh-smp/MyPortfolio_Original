@@ -2,8 +2,10 @@
   .page{
     height: calc(100vh - torem(0px));
   }
-
-
+  .pageHeading{
+    font-size: torem(25px);
+    font-family: bbc;
+}
  
 .span{
   display: inline;

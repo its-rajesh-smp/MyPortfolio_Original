@@ -2,6 +2,11 @@
   height: calc(100vh - 0rem);
 }
 
+.pageHeading {
+  font-size: 1.5625rem;
+  font-family: bbc;
+}
+
 .span {
   display: inline;
   position: relative;
