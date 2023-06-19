@@ -9,9 +9,10 @@ function TypeWriter() {
             typewriter
               .start()
               .typeString(textToSpan("I am a Frontend Developer"))
+              .pauseFor(2000)
               .callFunction(boomTextFunc())
               .callFunction(hideCursor())
-              .pauseFor(1000)
+              .pauseFor(2000)
 
               .pauseFor(3000)
 
@@ -20,10 +21,10 @@ function TypeWriter() {
               .callFunction(showCursor())
 
               .deleteChars(9)
-              .typeString("Desiginer")
+              .typeString(textToSpan("Desiginer"))
               .pauseFor(2000)
 
-              .deleteChars(23)
+              .deleteChars(24)
               .typeString(textToSpan("Love React , JS , CSS"))
               .callFunction(morphText())
               .pauseFor(5000);

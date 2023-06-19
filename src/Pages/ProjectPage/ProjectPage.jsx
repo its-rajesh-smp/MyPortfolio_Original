@@ -1,24 +1,25 @@
+import { useRef } from "react";
+import "./ProjectPage.css";
 import Project from "../../Components/ProjectPage/Project/Project";
 import ProjectBar from "../../Components/ProjectPage/ProjectBar/ProjectBar";
 import ProjectContainer from "../../Components/ProjectPage/ProjectContainer/ProjectContainer";
+import PageHeading from "../../Components/UI/PageHeading/PageHeading";
 import PageWrapper from "../../Components/UI/PageWrapper/PageWrapper";
-import "./ProjectPage.css";
+
 function ProjectPage() {
+  const pageRef = useRef();
+
   return (
-    <section className="page">
+    <section>
       <PageWrapper className="ProjectPage">
-        <h1 className="pageHeading">PROJECTS</h1>
-
-        <div className="loader">
-          <div style={{ width: "100%" }} className="progressBar"></div>
-        </div>
-
+        <PageHeading name="PROJECTS" />
         <ProjectBar />
 
         <ProjectContainer>
-          <Project />
-          <Project />
-          <Project />
+          <Project showFrom="left" />
+          <Project showFrom="right" />
+          <Project showFrom="left" />
+          <Project showFrom="right" />
         </ProjectContainer>
       </PageWrapper>
     </section>

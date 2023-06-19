@@ -1,7 +1,7 @@
 import "./ProjectBar.css";
 function ProjectBar(props) {
   return (
-    <div className="ProjectBar">
+    <div ref={props.projectBarRef} className="ProjectBar">
       <button>DYNAMIC</button>
       <button>STATIC</button>
       <button>CODEPEN</button>

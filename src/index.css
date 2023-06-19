@@ -8,6 +8,9 @@
   font-family: bbk;
   src: url(./assets/EditorialNew.otf);
 }
+body{
+  overflow-x: hidden;
+}
 *{
   margin: 0;
   padding: 0;

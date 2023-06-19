@@ -1,17 +1,14 @@
 import Skill from "../../Components/SkillPage/Skill";
+import PageHeading from "../../Components/UI/PageHeading/PageHeading";
 import PageWrapper from "../../Components/UI/PageWrapper/PageWrapper";
 import SKILLS from "../../DATA/SKILLS";
 import "./SkillPage.css";
 
 function SkillPage() {
   return (
-    <section className="page">
+    <section>
       <PageWrapper className="SkillPage">
-        <h1 className="pageHeading">SKILLS</h1>
-
-        <div className="loader">
-          <div style={{ width: "100%" }} className="progressBar"></div>
-        </div>
+        <PageHeading name="SKILLS" />
 
         <div className="SkillPage__container">
           {SKILLS.map((skillData) => {

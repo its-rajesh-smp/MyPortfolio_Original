@@ -1,0 +1,13 @@
+@import "../../../Styles/color";
+.PageHeading{
+    font-family: bbc;
+    padding: torem(20px) 0px;
+    h1{
+        font-size: torem(30px);
+    }
+    div{
+        width: 100%;
+        height: torem(5px);
+        background-color: red;
+    }
+ }

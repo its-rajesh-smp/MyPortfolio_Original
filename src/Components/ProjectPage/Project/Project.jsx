@@ -1,7 +1,26 @@
+import { useRef } from "react";
 import "./Project.css";
-function Project() {
+import useScrollTriggure from "../../../Hooks/useScrollTriggure";
+function Project(props) {
+  let projectRef = useRef();
+
+  useScrollTriggure(
+    projectRef,
+    {
+      duration: 13,
+      translateX: props.showFrom === "left" ? "-100vw" : "100vw",
+      ease: "expo.out",
+    },
+
+    {
+      duration: 13,
+      x: "0vw",
+      ease: "expo.out",
+    }
+  );
+
   return (
-    <div className="Project">
+    <div ref={projectRef} className="Project">
       <img src="src\assets\screenshot.png" alt="" />
       <div className="ProjectAbout">
         <div className="left">

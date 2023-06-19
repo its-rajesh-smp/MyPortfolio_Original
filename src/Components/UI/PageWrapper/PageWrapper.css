@@ -1,4 +1,5 @@
 .PageWrapper {
   position: relative;
   z-index: 2000;
+  overflow-x: hidden;
 }/*# sourceMappingURL=PageWrapper.css.map */
