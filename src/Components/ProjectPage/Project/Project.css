@@ -1,0 +1,38 @@
+.Project {
+  padding: 0.625rem;
+  height: auto;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+}
+.Project img {
+  border-radius: 5px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Project .ProjectAbout {
+  padding: 0.625rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+.Project .ProjectAbout h1 {
+  font-family: bbc;
+  font-size: 1.875rem;
+}
+.Project .ProjectAbout p {
+  font-family: bbk;
+  font-size: 0.8125rem;
+}
+.Project .ProjectAbout .right {
+  justify-self: flex-end;
+}
+.Project .projectLinkStatus {
+  padding: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid black;
+  padding-top: 0.625rem;
+  font-family: bbk;
+}/*# sourceMappingURL=Project.css.map */

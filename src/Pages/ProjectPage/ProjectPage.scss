@@ -1,4 +1,30 @@
 @import "../../Styles/color";
 .ProjectPage{
     padding: torem(10px);
+    .ProjectPage__container{
+        padding: torem(10px);
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        gap: torem(50px);
+        grid-template-columns: 1fr 1fr ;
+    }
 }
+
+
+  //? Media
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .ProjectPage{
+      
+        .ProjectPage__container{
+   display: flex;
+   flex-direction: column;
+        }
+    }
+   } 
+   /* Tablet */
+   @media only screen and (min-device-width: 480px) and (max-device-width: 1080px) {
+    
+   }
+   
