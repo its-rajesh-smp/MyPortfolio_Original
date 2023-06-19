@@ -1,4 +1,6 @@
 import Project from "../../Components/ProjectPage/Project/Project";
+import ProjectBar from "../../Components/ProjectPage/ProjectBar/ProjectBar";
+import ProjectContainer from "../../Components/ProjectPage/ProjectContainer/ProjectContainer";
 import PageWrapper from "../../Components/UI/PageWrapper/PageWrapper";
 import "./ProjectPage.css";
 function ProjectPage() {
@@ -11,11 +13,13 @@ function ProjectPage() {
           <div style={{ width: "100%" }} className="progressBar"></div>
         </div>
 
-        <div className="ProjectPage__container">
+        <ProjectBar />
+
+        <ProjectContainer>
           <Project />
           <Project />
           <Project />
-        </div>
+        </ProjectContainer>
       </PageWrapper>
     </section>
   );

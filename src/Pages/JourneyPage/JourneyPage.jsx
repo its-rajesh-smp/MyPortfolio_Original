@@ -20,8 +20,8 @@ function JourneyPage() {
       },
       {
         translateX: "-300vw",
-        ease: "none",
-        duration: 1,
+        ease: "sine.inOut",
+        duration: 0.2,
         scrollTrigger: {
           trigger: trigguredRef.current,
           start: "-60px top",

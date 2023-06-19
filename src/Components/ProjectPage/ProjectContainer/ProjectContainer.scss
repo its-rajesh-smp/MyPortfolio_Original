@@ -1,0 +1,31 @@
+@import "../../../Styles/color";
+.ProjectContainer{
+        padding: torem(10px);
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        gap: torem(50px);
+        grid-template-columns: 1fr 1fr ;
+ 
+        .iframe{
+            width: 100%;
+            height: torem(500px);
+        }
+}
+
+  //? Media
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+      
+        .ProjectContainer{
+   display: flex;
+   flex-direction: column;
+        }
+    }
+
+   /* Tablet */
+   @media only screen and (min-device-width: 480px) and (max-device-width: 1080px) {
+    
+   }
+   

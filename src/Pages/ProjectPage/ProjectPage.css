@@ -1,20 +1,6 @@
 .ProjectPage {
   padding: 0.625rem;
 }
-.ProjectPage .ProjectPage__container {
-  padding: 0.625rem;
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  gap: 3.125rem;
-  grid-template-columns: 1fr 1fr;
-}
 
 /* Smartphones  */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .ProjectPage .ProjectPage__container {
-    display: flex;
-    flex-direction: column;
-  }
-}
 /* Tablet *//*# sourceMappingURL=ProjectPage.css.map */

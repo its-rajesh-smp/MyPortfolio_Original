@@ -1,0 +1,22 @@
+@import "../../../Styles/color";
+.ProjectBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: torem(10px);
+    gap: torem(5px);
+    button{
+        width: 100%;
+        height: torem(40px);
+        border: none;
+        border-radius: torem(5px);
+        font-family: bbk;
+        font-weight: 600;
+        font-size: torem(16px);
+        cursor: pointer;
+        transition: all 1s;
+        &:hover{
+            background-color: #b4b3b3;
+        }
+    }
+}

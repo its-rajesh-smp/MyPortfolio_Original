@@ -1,0 +1,21 @@
+.ProjectContainer {
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  gap: 3.125rem;
+  grid-template-columns: 1fr 1fr;
+}
+.ProjectContainer .iframe {
+  width: 100%;
+  height: 31.25rem;
+}
+
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .ProjectContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* Tablet *//*# sourceMappingURL=ProjectContainer.css.map */
