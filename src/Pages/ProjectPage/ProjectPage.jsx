@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import "./ProjectPage.css";
 import Project from "../../Components/ProjectPage/Project/Project";
 import ProjectBar from "../../Components/ProjectPage/ProjectBar/ProjectBar";

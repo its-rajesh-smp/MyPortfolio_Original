@@ -1,4 +1,4 @@
-export const HomeBackground_config = {
+export const HomePageBackgroundConfig = {
   autoPlay: true,
   background: {
     color: {

@@ -1,4 +1,5 @@
-import HomeBackground from "../../Components/HomePage/HomeBackground/HomeBackground";
+import { HomePageBackgroundConfig } from "../../Backgrounds/HomePageBackgroundConfig";
+import Background from "../../Components/Background/Background";
 import ImageSide from "../../Components/HomePage/ImageSide/ImageSide";
 import SideBar from "../../Components/HomePage/SideBar/SideBar";
 import TextSide from "../../Components/HomePage/TextSide/TextSide";
@@ -7,7 +8,7 @@ import "./HomePage.css";
 function HomePage() {
   return (
     <section className="HomePageSection">
-      <HomeBackground />
+      <Background config={HomePageBackgroundConfig} />
       <PageWrapper className="HomePage ">
         <SideBar />
         <div className="HomePage__container">
