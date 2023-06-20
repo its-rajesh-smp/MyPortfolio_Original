@@ -7,7 +7,7 @@ function useScrollTriggure(targetRef, animateForm, animateTo) {
   useEffect(() => {
     const scrollTrigger = {
       trigger: targetRef.current,
-      scrub: 8,
+      scrub: 1,
       start: "top 90%",
       end: "50% 84%",
     };

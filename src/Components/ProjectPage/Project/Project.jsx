@@ -7,15 +7,17 @@ function Project(props) {
   useScrollTriggure(
     projectRef,
     {
-      duration: 13,
+      duration: 1,
       translateX: props.showFrom === "left" ? "-100vw" : "100vw",
       ease: "expo.out",
+      delay: 3,
     },
 
     {
-      duration: 13,
+      duration: 1,
       x: "0vw",
       ease: "expo.out",
+      delay: 3,
     }
   );
 
