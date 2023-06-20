@@ -7,13 +7,13 @@ function Skill(props) {
   useScrollTriggure(
     skillRef,
     {
-      duration: 0,
       opacity: 0,
-      translateY: "-70px",
-      delay: 3,
+      y: "-70px",
       ease: "expo.out",
     },
-    { opacity: 1, translateY: "0px" }
+    { opacity: 1, y: "0px" },
+
+    { top: "90%", bottom: "60%", scrub: 0.6 }
   );
 
   return (

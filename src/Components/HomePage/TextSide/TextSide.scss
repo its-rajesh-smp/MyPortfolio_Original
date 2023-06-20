@@ -1,13 +1,14 @@
 @import "../../../Styles/color";
 .TextSide{
     display: flex;
-    font-family: 'Josefin Sans', sans-serif;
     flex-direction: column;
     h1{
-        font-size: torem(100px);
+        font-size: torem(150px);
+        font-family: bbc;
     }
     h2{
         font-size: torem(50px);
+        font-family: bbk;
     }
 }
 

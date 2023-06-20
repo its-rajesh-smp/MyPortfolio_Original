@@ -4,12 +4,13 @@
   display: inline;
   position: relative;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: 200ms;
   top: 0px;
   left: 0px;
   transform: rotate(0deg);
   font-size: torem(16px);
   text-shadow: none;
+  font-family: bbk;
 } 
 .typewriter_div{
   position: relative;

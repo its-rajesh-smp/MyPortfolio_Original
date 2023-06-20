@@ -5,9 +5,15 @@
     h1{
         font-size: torem(30px);
     }
-    div{
+    .lineOuter{
         width: 100%;
         height: torem(5px);
-        background-color: red;
+        background-color: gainsboro;
+        overflow: hidden;
+        div{
+            height: 100%;
+            width: 100%;
+            background-color: red;
+        }
     }
  }

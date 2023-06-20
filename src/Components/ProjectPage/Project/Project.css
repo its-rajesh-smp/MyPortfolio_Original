@@ -3,6 +3,7 @@
   height: auto;
   background-color: #F5F5F5;
   border-radius: 5px;
+  will-change: transform;
 }
 .Project img {
   border-radius: 5px;

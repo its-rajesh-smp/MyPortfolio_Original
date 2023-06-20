@@ -1,5 +1,6 @@
 @import "../../Styles/color";
-.Skill{
+
+.Skill {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,11 +8,14 @@
     font-family: bbk;
     gap: torem(10px);
     text-align: center;
-.icon{
- width: torem(40px);
- height: torem(40px);
-}
-p{
-    font-size: torem(16px);
-}
+    will-change: transform;
+
+    .icon {
+        width: torem(40px);
+        height: torem(40px);
+    }
+
+    p {
+        font-size: torem(16px);
+    }
 }

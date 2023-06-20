@@ -7,8 +7,6 @@ import PageHeading from "../../Components/UI/PageHeading/PageHeading";
 import PageWrapper from "../../Components/UI/PageWrapper/PageWrapper";
 
 function ProjectPage() {
-  const pageRef = useRef();
-
   return (
     <section>
       <PageWrapper className="ProjectPage">

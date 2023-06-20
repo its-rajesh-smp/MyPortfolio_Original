@@ -5,8 +5,14 @@
 .PageHeading h1 {
   font-size: 1.875rem;
 }
-.PageHeading div {
+.PageHeading .lineOuter {
   width: 100%;
   height: 0.3125rem;
+  background-color: gainsboro;
+  overflow: hidden;
+}
+.PageHeading .lineOuter div {
+  height: 100%;
+  width: 100%;
   background-color: red;
 }/*# sourceMappingURL=PageHeading.css.map */

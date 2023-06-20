@@ -2,14 +2,20 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
-function useScrollTriggure(targetRef, animateForm, animateTo) {
+function useScrollTriggure(
+  targetRef,
+  animateForm,
+  animateTo,
+  config = { top: "90%", bottom: "80%", scrub: true },
+  elemTop = { top: "top", bottom: "bottom" }
+) {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     const scrollTrigger = {
       trigger: targetRef.current,
-      scrub: 1,
-      start: "top 90%",
-      end: "50% 84%",
+      scrub: config.scrub,
+      start: `${elemTop.top} ${config.top}`,
+      end: `${elemTop.top} ${config.bottom}`,
     };
 
     const pin = gsap.fromTo(
@@ -27,7 +33,7 @@ function useScrollTriggure(targetRef, animateForm, animateTo) {
     return () => {
       pin.kill();
     };
-  }, [targetRef, animateForm, animateTo]);
+  }, [targetRef, animateForm, animateTo, config]);
 }
 
 export default useScrollTriggure;

@@ -15,10 +15,12 @@ function Project(props) {
 
     {
       duration: 1,
-      x: "0vw",
+      translateX: "0",
       ease: "expo.out",
       delay: 3,
-    }
+    },
+    { top: "90%", bottom: "80%", scrub: 3 },
+    { top: "top", bottom: "55%" }
   );
 
   return (

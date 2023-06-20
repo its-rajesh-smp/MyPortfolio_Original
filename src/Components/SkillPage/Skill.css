@@ -6,6 +6,7 @@
   font-family: bbk;
   gap: 0.625rem;
   text-align: center;
+  will-change: transform;
 }
 .Skill .icon {
   width: 2.5rem;

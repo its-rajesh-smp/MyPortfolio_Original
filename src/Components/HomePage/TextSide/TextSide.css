@@ -1,13 +1,14 @@
 .TextSide {
   display: flex;
-  font-family: "Josefin Sans", sans-serif;
   flex-direction: column;
 }
 .TextSide h1 {
-  font-size: 6.25rem;
+  font-size: 9.375rem;
+  font-family: bbc;
 }
 .TextSide h2 {
   font-size: 3.125rem;
+  font-family: bbk;
 }
 
 /* Smartphones  */

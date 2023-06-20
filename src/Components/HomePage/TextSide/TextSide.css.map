@@ -1,1 +1,1 @@
-{"version":3,"sources":["TextSide.scss","TextSide.css"],"names":[],"mappings":"AACA;EACI,aAAA;EACA,uCAAA;EACA,sBAAA;ACAJ;ADCI;EACI,kBAAA;ACCR;ADCI;EACI,mBAAA;ACCR;;ADKA,iBAAA;AACA;EACI;IACI,UAAA;ECFN;AACF;ADKG,WAAA","file":"TextSide.css"}
+{"version":3,"sources":["TextSide.scss","TextSide.css"],"names":[],"mappings":"AACA;EACI,aAAA;EACA,sBAAA;ACAJ;ADCI;EACI,mBAAA;EACA,gBAAA;ACCR;ADCI;EACI,mBAAA;EACA,gBAAA;ACCR;;ADKA,iBAAA;AACA;EACI;IACI,UAAA;ECFN;AACF;ADKG,WAAA","file":"TextSide.css"}
